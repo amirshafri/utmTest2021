@@ -1,0 +1,90 @@
+<!-- <mat-toolbar color="primary">
+  <span class="fill-remaining-space"
+    >HTP: Pendaftaran Harta Tetap Dan Inventori: DERAF</span
+  >
+</mat-toolbar> -->
+<p>
+  <mat-toolbar color="primary">
+  <span>HTP: Pendaftaran Harta Tetap Dan Inventori: DERAF</span>
+  </mat-toolbar>
+</p>
+<div class="container">
+ <br>
+ <form>
+  <mat-form-field class="form-element">
+    <input matInput placeholder="No Rujukan" formControlName="name" />
+  </mat-form-field>
+ </form>
+</div>
+<!-- <mat-form-field appearance="fill">
+  <mat-label>Input</mat-label>
+  <input matInput>
+</mat-form-field> -->
+<!-- 
+<div class="container">
+  <form
+    [formGroup]="formGroup"
+    (ngSubmit)="onSubmit()"
+    class="form"
+  >
+    <mat-form-field class="form-element">
+      <input matInput placeholder="No Rujukan" formControlName="name" />
+    </mat-form-field>
+
+    <mat-form-field class="form-element">
+      <input matInput placeholder="Bar Kod" formControlName="name" />
+    </mat-form-field><br>
+
+    <mat-form-field class="form-element">
+      <textarea
+        matInput
+        placeholder="Keterangan"
+        matTextareaAutosize
+        formControlName="description"
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="form-element">
+      <input matInput placeholder="Pusat Kos" formControlName="name" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Jenis</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let food of foods" [value]="food.value">
+          {{ food.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Status</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let status of status" [value]="status.value">
+          {{ status.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Kategori</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let status of status" [value]="status.value">
+          {{ status.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="form-element">
+      <button mat-raised-button color="primary" type="submit" class="button">
+        Next
+      </button>
+    </div>
+  </form>
+</div>
+
+<ng-template #forminfo>
+  <div class="container">
+    {{ post | json }}
+  </div>
+</ng-template> -->
